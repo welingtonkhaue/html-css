@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: dimgray;
+            border-radius: 5px;
+        }
+
+        header {
+            background-color: rgb(245, 241, 241);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 4px;
+        }
+
+        nav {
+            background-color: blueviolet;
+            padding: 3px;
+            box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.562);
+            border-radius: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: antiquewhite;
+
+        }
+
+        main {
+            background-color: rgb(12, 11, 11);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px;
+        }
+
+        p {
+            color: rgb(243, 241, 241);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(5, 5, 5);
+            padding: 5px;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        footer {
+            background-color: rgb(243, 12, 12);
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+        }
+
+        article {
+            background-color: rgb(61, 60, 60);
+            border-radius: 2px;
+        }
+
+        article > aside {
+            background-color: blue;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <H1>Meu Site</H1>
+        <nav>
+            <a hrSef="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Esta é uma noticia sobre o Brasil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, at. At est nesciunt culpa temporibus vitae? Non dignissimos accusamus iure praesentium veritatis quisquam, molestiae doloremque aut corporis velit magni vero.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="dev">Desenvolvido pelo RGK GG</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
